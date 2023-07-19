@@ -1,7 +1,7 @@
 # Approach 1: Brute Force - Do it with two loops: Start on left side and go all the way to end
 # by finding differences and return the max for i in range(len(prices)): for j in range(i+1, len(prices))..
 
-#Approach 2: Sliding window
+#Approach 2: Sliding window - Imagine this whole thing is a time series plot!!
 #We use a two pointer approach one to track min and other for max and a third variable to store max profit
 
 def maxProfit(self, prices: List[int]) -> int:
