@@ -6,7 +6,7 @@ def two_sum(nums, target):
   for i,j in enumerate(nums):
     if target-j in value_index_hash_map.keys():
         return ([value_index_hash_map[target-j], i])
-    else:
+    else: # If say, they want to retain the first index of a number then present this in another if condition.
         value_index_hash_map[j] = i
   return #This is redundant because the question says there is always a pair that adds up to the target
 
